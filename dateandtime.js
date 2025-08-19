@@ -13,8 +13,8 @@ console.log(myDate.toUTCString());
 
 // date format
 console.log(typeof myDate);
-let myCreatedDate = new Date (2025, 07, 19)
-myCreatedDate = new Date (2025, 07, 19, 5, 7)
+let myCreatedDate = new Date (2025, 0, 19)
+myCreatedDate = new Date (2025, 6, 19, 5, 7)
 myCreatedDate = new Date ("2025-08-15")
 console.log(myCreatedDate.toDateString());
 

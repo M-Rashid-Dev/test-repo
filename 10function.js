@@ -1,0 +1,45 @@
+function Name(){
+    console.log("r");
+console.log("a");
+console.log("s");
+console.log("h");
+console.log("i");
+console.log("d");
+
+}
+// Name();
+
+// function addTowNumber(num1, num2){
+//     console.log(num1 + num2);
+    
+// }
+
+// addTowNumber(3,4)
+
+// const result = addTowNumber(5, 5)
+// console.log("result is ," , result)
+
+function addTowNumber(num1, num2){
+// let result = num1 +num2
+// return result
+return num1 + num2
+}
+
+const result = addTowNumber(5, 5)
+console.log("result is ," , result)
+
+function loginmessage(username){
+    return `${username} just logged in`
+}
+// loginmessage("rashid") just return not print
+console.log(loginmessage("rashid")); // print 
+
+function secondusermessage(secname = "mustafa"){
+    if(secname === undefined){
+        console.log("please enter user name");
+        return      
+    }
+    return `${secname} just logged in`
+}
+
+console.log(secondusermessage());

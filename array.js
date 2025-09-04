@@ -71,4 +71,4 @@ let num1 = 190
 let num2 = 293
 let num3 = 24723
 
-console.log(Array.of(num1, num2, num3));
+console.log(Array.of(num1, num2, num3))

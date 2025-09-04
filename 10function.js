@@ -26,13 +26,13 @@ return num1 + num2
 }
 
 const result = addTowNumber(5, 5)
-console.log("result is ," , result)
+// console.log("result is ," , result)
 
 function loginmessage(username){
     return `${username} just logged in`
 }
 // loginmessage("rashid") just return not print
-console.log(loginmessage("rashid")); // print 
+// console.log(loginmessage("rashid")); // print 
 
 function secondusermessage(secname = "mustafa"){
     if(secname === undefined){
@@ -42,4 +42,23 @@ function secondusermessage(secname = "mustafa"){
     return `${secname} just logged in`
 }
 
-console.log(secondusermessage());
+// console.log(secondusermessage());
+
+
+// rest operator return value in array
+function calculatecartprice(val1, val2, ...num1){
+return num1
+}
+
+// console.log(calculatecartprice(2,3,4,5));
+
+const user = {
+    username: "rashid",
+    price: 200
+}
+
+function handleObject( anyobject){
+    console.log(`username is ${anyobject.username} and price is 
+        ${anyobject.price}`);
+    
+}

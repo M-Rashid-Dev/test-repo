@@ -52,6 +52,7 @@ return num1
 
 // console.log(calculatecartprice(2,3,4,5));
 
+//  passing object as parameter in function
 const user = {
     username: "rashid",
     price: 200
@@ -62,3 +63,20 @@ function handleObject( anyobject){
         ${anyobject.price}`);
     
 }
+// handleObject(user)
+handleObject({
+    username: "MUHAMMAD",
+    price: 600
+})
+
+//  passing Array as parameter in function
+
+const arrayParameter = [1,2,3,4,5]
+
+function arrFunction(anyArray){
+    // console.log(anyArray[1]);
+    return anyArray[3]
+    
+}
+// arrFunction(arrayParameter)
+console.log(arrFunction([200,300,400,500]));

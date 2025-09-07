@@ -24,10 +24,10 @@ const user = {
 // implicit return
 
 // const addtwo = (num1, num2) => num1 + num2
-// const addtwo = (num1, num2) => (num1 + num2)
+const addtwo = (num1, num2) => (num1 + num2)
 
 // object in implicit return
 
-const addtwo = (num1, num2) => ({ username: "MUHAMMAD RASHID"})
+// const addtwo = (num1, num2) => ({ username: "MUHAMMAD RASHID"})
 
 console.log(addtwo(5, 10));

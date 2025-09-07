@@ -20,7 +20,7 @@ const balance = 500
 if (balance > 200) console.log("yes greater")
 
 
-    //  and statement
+    //  and statement logical operator
 
 const userLogin = true
 const debitCard = true
@@ -29,7 +29,7 @@ if (userLogin && debitCard) {
     console.log(" now you can buy any thing");    
 }
 
-//  Or statement 
+//  Or statement logicasl operator
 const creditCard = false
 if (userLogin || creditCard) {
     console.log(" now you can also buy any thing");

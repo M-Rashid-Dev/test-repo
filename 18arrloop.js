@@ -30,7 +30,7 @@ for (const i of map) {
 }
 
 for (const [i, v] of map) {
-    console.log(i ,":-", v);
+    // console.log(i ,":-", v);
 }
 
 //  object is not iterable
